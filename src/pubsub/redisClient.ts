@@ -3,7 +3,6 @@ import { createClient } from "redis";
 // const REDIS_URL = process.env.URL_REDIS_CONN;
 const REDIS_URL = process.env.REDIS_ONLINE;
 
-console.log("redis url", REDIS_URL);
 //Create redis client
 const redisClient = createClient({ url: REDIS_URL });
 
